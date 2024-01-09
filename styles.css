@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P';font-size: 22px;
+}
+
+body {
+  background-color: black;
+}
+
+h1{
+  font-size: 56px;
+  text-align: center;
+  margin: 30px 0 80px 0;
+  color: orange;
+  text-shadow: 0px 5px 8px orangered;
+}
+
+#box {
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  margin: auto;
+  overflow: hidden;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  text-shadow: 0px 5px 8px orangered;
+  border-radius: 50%;
+  position: relative;
+  top: 400px;
+  left: 190px;
+  z-index: 1000000;
+}
+
+.block{
+  width: 400px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+.hole{
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
